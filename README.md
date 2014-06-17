@@ -6,7 +6,7 @@ This is my course project for Coursera course [Getting and Cleaning Data](https:
 This repository includes three items:
 ----------------------
 
-* An R script called run_analysis.R that does the following:
+* An R script called run_analysis.R that does the analysis and creates the tidy data set by doing the following:
 
 >1.  Merges the training and the test sets to create one data set.
 >2.  Extracts only the measurements on the mean and standard deviation for each measurement.

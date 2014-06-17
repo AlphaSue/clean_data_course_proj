@@ -1,7 +1,7 @@
 My Course Project
 ======================
 
-This is my course project for Coursera course [Getting and Cleaning Data](https://www.coursera.org/course/getdata) taught by Jeffrey Leek.
+This is my course project for Coursera course [Getting and Cleaning Data](https://www.coursera.org/course/getdata) taught by [Professor Jeffrey Leek](http://www.biostat.jhsph.edu/~jleek/research.html).
 
 This repository includes three items:
 ----------------------
@@ -16,6 +16,7 @@ This repository includes three items:
 
 
 * CodeBook.md 
+* 
 >A markdown file that a code book that describes the variables, the data, and the transformations and work that I performed to clean up the data.
 
 *README.md

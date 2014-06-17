@@ -16,10 +16,11 @@ This repository includes three items:
 
 
 * CodeBook.md 
-* 
+
 >A markdown file that a code book that describes the variables, the data, and the transformations and work that I performed to clean up the data.
 
 *README.md
+
 >This file. It explains how the scripts work, contents of the repository, and how the contents are connected. 
 
 Additional information

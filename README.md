@@ -30,7 +30,7 @@ The data utilized here represent data collected from the accelerometers from the
 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-It was provided for this project by the instructors.
+The was provided for this project by the instructors.
 
 
 

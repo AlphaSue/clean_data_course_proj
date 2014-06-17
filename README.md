@@ -19,16 +19,18 @@ This repository includes three items:
 
 >A markdown file that a code book that describes the variables, the data, and the transformations and work that I performed to clean up the data.
 
-*README.md
+* README.md
 
 >This file. It explains how the scripts work, contents of the repository, and how the contents are connected. 
 
 Additional information
 ----------------------
 
-The data used in the project represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+The data utilized here represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+It was provided for this project by the instructors.
 
 
 

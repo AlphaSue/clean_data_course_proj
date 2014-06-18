@@ -9,7 +9,13 @@ This repository includes three items:
 * An well-commented R script called run_analysis.R that does the analysis and creates the tidy data set by doing the following:
 
 >1.  Merges the training and the test sets to create one data set.
-* It assumes the contents of the provided zip file are all in the working directory. The specific files and directories placed in the working directory: a) README.txt d) train directory; and e) test directory.
+* It assumes the contents of the provided zip file are all in the working directory. The specific files and directories placed in the working directory: 
+a) README.txt;  
+b) activity_labels.txt; 
+c) features_info.txt; 
+d) features.txt;  
+e) train directory;
+and f) test directory.
 >2.  Extracts only the measurements on the mean and standard deviation for each measurement.
 >3.  Uses descriptive activity names to name the activities in the data set
 >4.  Appropriately labels the data set with descriptive variable names.

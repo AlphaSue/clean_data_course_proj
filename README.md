@@ -16,6 +16,8 @@ c) features_info.txt;
 d) features.txt;  
 e) train directory; and  
 f) test directory.
+  
+As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps and so it has been left out of the merge from the start.
 >2.  Extracts only the measurements on the mean and standard deviation for each measurement.
 >3.  Uses descriptive activity names to name the activities in the data set
 >4.  Appropriately labels the data set with descriptive variable names.

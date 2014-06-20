@@ -41,7 +41,7 @@ f) test directory.
 
 ####Step #1 information
 
-As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps and so it has been left out of the merge from the start.
+As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps, and so it has been left out of the merge from the start.
 
 In the raw data the test and the training data sets. are actually divided among three files for each set. As preparation for the merge, steps combining the parts of the test and training data each into its own data frame precedes thse merging the training and test sets.
 

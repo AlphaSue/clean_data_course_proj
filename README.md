@@ -45,8 +45,8 @@ In the raw data the test and the training data sets. are actually divided among 
 
 ######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you seek additional insight about the processing of the raw data to tidy data set.
 
-Additional information
-----------------------
+Additional information and attribution
+---------------------------------------
 
 The raw data utilized here represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
 

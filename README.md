@@ -51,11 +51,11 @@ In the raw data the test and the training data sets. are actually divided among 
 Additional information and attribution
 ---------------------------------------
 
-The raw data utilized here represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+The raw data utilized here represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and attribution is available at the site where the data was originally obtained:
 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-The specific raw data for this project was provided by the instructors.
+The specific zipped file containing the raw data set for this project was provided by the class instructors.
 
 
 

@@ -8,7 +8,7 @@ This repository includes three items:
 
 * An well-commented R script called `run_analysis.R` that does the analysis and creates the tidy data set. 
 
->Details of the `run_analysis.R` script are provided below. 
+>Details of the `run_analysis.R` script are provided below this accounting of the repository. 
 
 
 * CodeBook.md 
@@ -18,6 +18,7 @@ This repository includes three items:
 * README.md
 
 >This file. It explains how the scripts work, contents of the repository, and how the contents are connected. 
+
 
 
 ###Details on the `run_analysis.R` script

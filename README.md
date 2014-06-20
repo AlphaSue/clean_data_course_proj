@@ -46,7 +46,7 @@ As described in [this post](https://class.coursera.org/getdata-004/forum/thread?
 In the raw data the test and the training data sets. are actually divided among three files for each set. As preparation for the merge, steps combining the parts of the test and training data each into its own data frame precedes thse merging the training and test sets.
 
 
-######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you seek additional insight about the processing of the raw data to tidy data set.
+######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set.
 
 Additional information and attribution
 ---------------------------------------

@@ -20,7 +20,7 @@ This repository includes three items:
 
 ###Details on the `run_analysis.R` script
 
-An well-commented R script called run_analysis.R that does the analysis and creates the tidy data set. Details are provided below. by doing the following:
+The `run_analysis.R` script is a well-commented R script that does the analysis and creates the tidy data set by doing the following:
 
 >1.  Merges the training and the test sets to create one data set. 
 >2.  Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -36,13 +36,14 @@ d) features.txt;
 e) train directory; and  
 f) test directory.
 
-Step #1 information
-----------------------
+####Step #1 information
 
 As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps and so it has been left out of the merge from the start.
 
 In the raw data the test and the training data sets. are actually divided among three files for each set. As preparation for the merge, steps combining the parts of the test and training data each into its own data frame precedes thse merging the training and test sets.
 
+
+#### The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/run_analysis.R) if you have additional inquiries about the details of the steps.
 
 Additional information
 ----------------------

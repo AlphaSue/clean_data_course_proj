@@ -31,7 +31,7 @@ The `run_analysis.R` script is a well-commented R script that does the analysis 
 >4.  Appropriately labels the data set with descriptive variable names.
 >5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The `run_analysis.R` script assumes the contents of the provided zip file have all been placed in the working directory at the outset. The specific files and directories from the provided zip file placed in the working directory:  
+The `run_analysis.R` script assumes the contents of the provided zip file have all been placed in the working directory at the outset. The specific files and directories from the instructor-provided zip file placed in the working directory:  
 a) README.txt;  
 b) activity_labels.txt;  
 c) features_info.txt;  

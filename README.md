@@ -43,7 +43,7 @@ As described in [this post](https://class.coursera.org/getdata-004/forum/thread?
 In the raw data the test and the training data sets. are actually divided among three files for each set. As preparation for the merge, steps combining the parts of the test and training data each into its own data frame precedes thse merging the training and test sets.
 
 
-#### The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/run_analysis.R) if you have additional inquiries about the details of the steps.
+######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/run_analysis.R) if you seek additional insight about the detail the steps.
 
 Additional information
 ----------------------

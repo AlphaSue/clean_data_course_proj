@@ -14,6 +14,16 @@ This repository includes three items:
 >4.  Appropriately labels the data set with descriptive variable names.
 >5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
+* CodeBook.md 
+
+>A markdown file that a code book that describes the variables, the data, and the transformations and work that I performed to clean up the data.
+
+* README.md
+
+>This file. It explains how the scripts work, contents of the repository, and how the contents are connected. 
+
+
 ###Details on the `run_analysis.R` script
 
 The `run_analysis.R` script assumes the contents of the provided zip file have all been placed in the working directory at the outset. The specific files and directories from the provided zip file placed in the working directory:  
@@ -25,19 +35,10 @@ e) train directory; and
 f) test directory.
 
 
-
 As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps and so it has been left out of the merge from the start.
 
 In the raw data the test and the training data sets. are actually divided among three files for each set. As preparation for the merge, steps combining the parts of the test and training data each into its own data frame precedes thse merging the training and test sets.
 
-
-* CodeBook.md 
-
->A markdown file that a code book that describes the variables, the data, and the transformations and work that I performed to clean up the data.
-
-* README.md
-
->This file. It explains how the scripts work, contents of the repository, and how the contents are connected. 
 
 Additional information
 ----------------------

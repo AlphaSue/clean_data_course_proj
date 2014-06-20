@@ -6,13 +6,7 @@ This is my course project for Coursera course [Getting and Cleaning Data](https:
 This repository includes three items:
 ----------------------
 
-* An well-commented R script called run_analysis.R that does the analysis and creates the tidy data set by doing the following:
-
->1.  Merges the training and the test sets to create one data set. 
->2.  Extracts only the measurements on the mean and standard deviation for each measurement.
->3.  Uses descriptive activity names to name the activities in the data set
->4.  Appropriately labels the data set with descriptive variable names.
->5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* An well-commented R script called `run_analysis.R` that does the analysis and creates the tidy data set. Details of the `run_analysis.R` script are provided below. 
 
 
 * CodeBook.md 
@@ -26,6 +20,14 @@ This repository includes three items:
 
 ###Details on the `run_analysis.R` script
 
+An well-commented R script called run_analysis.R that does the analysis and creates the tidy data set. Details are provided below. by doing the following:
+
+>1.  Merges the training and the test sets to create one data set. 
+>2.  Extracts only the measurements on the mean and standard deviation for each measurement.
+>3.  Uses descriptive activity names to name the activities in the data set
+>4.  Appropriately labels the data set with descriptive variable names.
+>5.  Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 The `run_analysis.R` script assumes the contents of the provided zip file have all been placed in the working directory at the outset. The specific files and directories from the provided zip file placed in the working directory:  
 a) README.txt;  
 b) activity_labels.txt;  
@@ -34,6 +36,8 @@ d) features.txt;
 e) train directory; and  
 f) test directory.
 
+Step #1 information
+----------------------
 
 As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps and so it has been left out of the merge from the start.
 

@@ -58,7 +58,7 @@ Prior to my work the activity column was populated with numbers representing eac
  
 ####Step #4 information
 
-I want to comment on my choices for descriptive variables names. For tidy data the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar as they deal with the phones' acclerometer and gryoscrope readings, and it would be very difficult to make these variable names descriptive otherwise. 
+I want to comment on my choices for descriptive variables names. For tidy data the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar as they deal with the phones' acclerometer and gryoscrope readings, and it would be very difficult to make these variable names descriptive otherwise.  
 The names were based on information in the files:
 - `features.txt` 
 - `features_info.txt` and 

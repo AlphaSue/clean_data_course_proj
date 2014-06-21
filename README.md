@@ -6,7 +6,7 @@ This is my course project for Coursera course [Getting and Cleaning Data](https:
 This repository includes three items:
 ----------------------
 
-* An well-commented R script called `run_analysis.R` that does the analysis and creates the tidy data set. 
+* An well-commented R script called `run_analysis.R` that does the analysis and creates the tidy data set for the phone data. 
 
 >Details of the `run_analysis.R` script are provided below this accounting of the repository. 
 

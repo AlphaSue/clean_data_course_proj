@@ -47,6 +47,23 @@ In the raw data the test and the training data sets are actually divided among t
 
 At the conclusion of the merge, the data set was checked for missing values as one should be congnizant of these when cleaning data and handle appropriately during downstream processes of creating a tidy data set or subsequent analysis. Luckily this is made easy by the fact there are no missing values.
 
+####Step #2 information
+
+As d
+
+####Step #3 information
+
+Prior to my work the activity column was populated with numbers representing each activity. The correspondences were detailed in the file `activity_labels.txt`. In the data set I produced as part of step three, and subsequently, the more descriptive text labels of the activity have been incoporated instead. I used a function `addLabels` (included in the script) that altered the level designators of the factor variables to do this.
+ 
+####Step #4 information
+
+As d
+
+####Step #5 information
+
+As d
+
+
 ######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set.
 
 Additional information and attribution

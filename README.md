@@ -49,7 +49,8 @@ At the conclusion of the merge, the data set was checked for missing values as o
 
 ####Step #2 information
 
-As d
+My handling of the data collected only the measures of `mean()` and `std()` for each measure and required the measure have both. Some measures that included the term mean were not included here as a result. I justify limiting my data to those where only `mean` and `std` accompanies each other in the list found in the file `features.txt` as I am moving towards creating a tidy data set that deals with these assessements of the measures.
+ 
 
 ####Step #3 information
 

@@ -70,7 +70,7 @@ As d
 Additional information and attribution
 ---------------------------------------
 
-The raw data utilized here represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description and attribution is available at the site where the data was originally obtained:
+The raw data utilized here represent data collected from the accelerometer and gyroscope signals from the Samsung Galaxy S smartphone. A full description and attribution is available at the site where the data was originally obtained:
 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 

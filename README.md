@@ -45,7 +45,7 @@ As described in [this post](https://class.coursera.org/getdata-004/forum/thread?
 
 In the raw data the test and the training data sets are actually divided among three files for each set. As preparation for the merge, steps combining the parts of the test and training data each into its own data frame precedes thse merging the training and test sets. During the combining the columns for subject ids and activity are added and converted from the interger values created during reading of the table to factor variables since the number differences don't correspond to quantitative differences.
 
-At the conclusion of the merge, the data set was checked for missing values as one should be congniznnt of these when cleaning data and handle appropriately during downstream processes of creating a tidy data set or subsequent analysis. Luckily this is amde easy by the fact there are no missing values.
+At the conclusion of the merge, the data set was checked for missing values as one should be congnizant of these when cleaning data and handle appropriately during downstream processes of creating a tidy data set or subsequent analysis. Luckily this is made easy by the fact there are no missing values.
 
 ######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set.
 

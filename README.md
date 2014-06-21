@@ -57,7 +57,7 @@ Prior to my work the activity column was populated with numbers representing eac
  
 ####Step #4 information
 
-As d
+I want to comment on my choices for descriptive variables names. For tidy data the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar and it would be very difficult to make these variable names descriptive otherwise. 
 
 ####Step #5 information
 

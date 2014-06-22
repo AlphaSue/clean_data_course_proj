@@ -77,8 +77,13 @@ Additional information
 ---------------------------------------
 My `run_analysis.R` script was used to take a provided untidy data set and make the tidy data set described in this code book. Learn more about it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/README.md).
 ######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set after consulting the [README.md file](https://github.com/fomightez/clean_data_course_proj/blob/master/README.md).
-
-
+  
+  
+  
+  
+  
+  
+  
 #### Additional notes on the data set targeted to issues specific to course goals
 The reformatted data represents a tidy data set because:
 - There is one variable per column.  

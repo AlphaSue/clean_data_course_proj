@@ -39,7 +39,9 @@ d) features.txt;
 e) train directory; and  
 f) test directory.
 
-The `run_analysis.R` script requires the `reshape2` library for running. Please install if `library(reshape2)` causes issues.
+The `run_analysis.R` script requires the `reshape2` package for running. 
+> That package will need to be install if issuing the command `library(reshape2)` causes issues.
+
 
 ####Step #1 information
 
@@ -68,7 +70,8 @@ The names were based on information in the files:
 
 ####Step #5 information
 The final step uses the melt and dcast commands to reformat the data applying a function to evaluate the means for each
-measurement for each activity and each subject. This is the part of the script dependent on the `reshape2` library for running. Please install if `library(reshape2)` causes issues.
+measurement for each activity and each subject. This is the part of the script dependent on the `reshape2` package for running. 
+>That package will need to be installed if issuing the command `library(reshape2)` causes issues.
 
 The reformatted data represents a tidy data set because:
 - There is one variable per column.  

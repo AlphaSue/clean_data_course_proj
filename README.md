@@ -39,6 +39,8 @@ d) features.txt;
 e) train directory; and  
 f) test directory.
 
+The `run_analysis.R` script requires the `reshape2` library for running. Please install if `library(reshape2)` causes issues.
+
 ####Step #1 information
 
 As described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106) the data in the inertial directory is very raw data and will ultimately be discarded for the tidy data set in later steps, and so it has been left out of the merge from the start.

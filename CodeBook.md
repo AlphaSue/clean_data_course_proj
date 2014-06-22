@@ -17,7 +17,7 @@ The specific zipped file containing the raw data set for this project was provid
 
 Details
 ---------
-There were 30 individual subjects in the test. They are represented by the arbitrary values 1 through 30 as indentifying indicators (`subject ids`).
+There were 30 individual subjects in the test. They are represented by the arbitrary values of numbers one through thirty as identifying indicators (`subject ids`).
 
 Accelerometer and gyroscope readings were analyzed for six types of activities: 
 - walking

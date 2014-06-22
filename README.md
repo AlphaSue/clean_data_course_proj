@@ -70,7 +70,19 @@ The names were based on information in the files:
 The final step uses the melt and dcast commands to reformat the data applying a function to evaluate the means for each
 measurement for each activity and each subject. This is the part of the script dependent on the `reshape2` library for running. Please install if `library(reshape2)` causes issues.
 
-The reformatted data represents a tidy data set. 
+The reformatted data represents a tidy data set because:
+- There is variable per column.  
+(2 columns of subject indicators and activity labels plus 66 columns of measures.)
+- There is a single observation per row, meaning in this tidy data set there is a single subject and single activity with summary of the means collected for all the measures collected for that set on a single row.  
+There are 180 rows because there are 6 activities that had been monitored for 30 individual subjects of the study. (6 * 30 = 180).
+- The table hold elements of only one kind.  
+Here that is the averages for a collection of measures for each subject and activity. This is also an improvement over the ariginal data set provided in that the data is in a single table instead of three. (Technically it is six files but they were arbitrarily split to have two sets they could train there assessment computations on and test the results on later.)
+- Column names are easy to use and informative.  
+It was requested for this project that variable names in the colmumns of the measures be particularly descriptive and they are. The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
+- Obvious mistakes in the data have been removed.
+While there weren't many mistakes that I saw. One fixed in the course of making the variable names of the measures better involved the variable names. For example, the `features_info.txt` file listed that there should be `fBodyAccJerkMag` but that doesn't occur in the original provided features listing in `features.txt`. Instead there is `fBodyBodyAccJerkMag`  in `features.txt`.
+Variable values are internally consistent
+Appropriate transformed variables have been added
 
 The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
 

@@ -38,14 +38,79 @@ On a related note, as described in [this post](https://class.coursera.org/getdat
 
 The sixty-six measures for which the averages for each test subject and activity analyzed are featured in the data set:
 
-
+mean acceleration of the body in x-axis of the phone
+mean acceleration of the body in y-axis of the phone
+mean acceleration of the body in z-axis of the phone
+std deviation of acceleration of the body in x-axis of the phone
+std deviation of acceleration of the body in y-axis of the phone
+std deviation of acceleration of the body in z-axis of the phone
+mean acceleration of gravity in x-axis of the phone
+mean acceleration of gravity in y-axis of the phone
+mean acceleration of gravity in z-axis of the phone
+std deviation of acceleration of gravity in x-axis of the phone
+std deviation of acceleration of gravity in y-axis of the phone
+std deviation of acceleration of gravity in z-axis of the phone
+mean acceleration during jerk signals of the body in x-axis of the phone
+mean acceleration during jerk signals of the body in y-axis of the phone
+mean acceleration during jerk signals of the body in z-axis of the phone
+std deviation of acceleration during jerk signals of body in x-axis of the phone
+std deviation of acceleration during jerk signals of body in y-axis of the phone
+std deviation of acceleration during jerk signals of body in z-axis of the phone 
+mean angular velocity of the body in x-axis of the phone
+mean angular velocity of the body in y-axis of the phone
+mean angular velocity of the body in z-axis of the phone
+std deviation of angular velocity of the body in x-axis of the phone
+std deviation of angular velocity of the body in y-axis of the phone
+std deviation of angular velocity of the body in z-axis of the phone
+mean angular velocity during jerk signals of the body in x-axis of the phone
+mean angular velocity during jerk signals of the body in y-axis of the phone
+mean angular velocity during jerk signals of the body in z-axis of the phone
+std deviation of angular velocity during jerk signals of body in x-axis of the phone
+std deviation of angular velocity during jerk signals of body in y-axis of the phone
+std deviation of angular velocity during jerk signals of body in z-axis of the phone
+mean magnitude of the acceleration of the body
+std deviation of the magnitude of the acceleration of the body
+mean magnitude of the acceleration of gravity
+std deviation of the magnitude of the acceleration of gravity
+mean magnitude of the acceleration of the body during jerk signals
+std deviation of the magnitude of the acceleration of the body during jerk signals 
+mean magnitude of the angular velocity of the body
+std deviation of the magnitude of the angular velocity of the body
+mean magnitude of the angular velocity of the body during jerk signals
+std deviation of the magnitude of the angular velocity of the body during jerk signals
+mean frequency domain signals of the acceleration of the body in x-axis of the phone
+mean frequency domain signals of acceleration of the body in y-axis of the phone
+mean frequency domain signals acceleration of the body in z-axis of the phone
+std deviation of the frequency domain signals of acceleration of the body in x-axis of the phone
+std deviation of the frequency domain signals of acceleration of the body in y-axis of the phone
+std deviation of the frequency domain signals of acceleration of the body in z-axis of the phone 
+mean frequency domain signals during jerk signals for the acceleration of the body in x-axis of the phone
+mean frequency domain signals during jerk signals for the acceleration of the body in y-axis of the phone
+mean frequency domain signals during jerk signals for the acceleration of the body in z-axis of the phone
+std deviation of the frequency domain signals during jerk signals for the acceleration of the body in x-axis of the phone
+std deviation of the frequency domain signals during jerk signals for the acceleration of the body in y-axis of the phone
+std deviation of the frequency domain signals during jerk signals for the acceleration of the body in z-axis of the phone
+mean frequency domain signals of the angular velocity of the body in x-axis of the phone
+mean frequency domain signals of angular velocity of the body in y-axis of the phone
+mean frequency domain signals angular velocity of the body in z-axis of the phone
+std deviation of the frequency domain signals of angular velocity of the body in x-axis of the phone
+std deviation of the frequency domain signals of angular velocity of the body in y-axis of the phone
+std deviation of the frequency domain signals of angular velocity of the body in z-axis of the phone 
+mean magnitude of the frequency domain signals of the acceleration of the body
+std deviation of the frequency domain signals of the magnitude of the acceleration of the body
+mean magnitude of the frequency domain signals of the maganitude of acceleration of the body during jerk signals
+std deviation of the frequency domain signals of the magnitude of the acceleration of the body during jerk signals
+mean magnitude of the frequency domain signals of the angular velocity of the body
+std deviation of the frequency domain signals of the magnitude of the angular velocity of the body
+mean magnitude of the frequency domain signals of the angular velocity of the body during jerk signals
+std deviation of the frequency domain signals of the magnitude of the angular velocity of the body during jerk signals
  
 
  
 
  
 
-Those measures indicated with `acceleration` pertain to readings from the accelerometer and those referencing `angular velocity` are from the gyroscope readings. Jerk signals are described with descriptor `during jerk signals`.
+The standard deviation is abbreviated `std deviation`. Those measures indicated with `acceleration` pertain to readings from the accelerometer and those referencing `angular velocity` are from the gyroscope readings. The differentiation into signals from the body and gravity are maintained as in the original feature descriptors.  Jerk signals are described with descriptor `during jerk signals`.
 I have used indicated those derived from Fast Fourier Transforms (FFTs) as pertaining to `frequency domain signals` and those where the magnitude (See the original `features_info.txt` for more information.)
 
 I want to comment on my choices for descriptive variables names. For tidy data, the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar as they deal with the phones' acclerometer and gryoscrope readings, and it would be very difficult to make these variable names descriptive otherwise.  

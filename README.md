@@ -69,7 +69,7 @@ The names were based on information in the files:
 - `README.txt` 
 
 ####Step #5 information
-The final step uses the melt and dcast commands to reformat the data applying a function to evaluate the means for each
+The final step uses the `melt` and `dcast` commands to reformat the data applying a function to evaluate the means for each
 measurement for each activity and each subject. This is the part of the script dependent on the `reshape2` package for running. 
 >That package will need to be installed if issuing the command `library(reshape2)` causes issues.
 

@@ -51,7 +51,7 @@ At the conclusion of the merge, the data set was checked for missing values as o
 
 ####Step #2 information
 
-My handling of the data collected only the measures of `mean()` and `std()` for each measure and required the measure have both. Some measures that included the term mean were not included here as a result. I justify limiting my data to those where only `mean` and `std` accompanies each other in the list found in the file `features.txt` as I am moving towards creating a tidy data set that deals with these assessements of the measures.
+From this point on, I will only be dealing with a subset of the data from the original data set. My handling of the data collected only the measures of `mean()` and `std()` for each measure and required the measure have both. Some measures that included the term mean were not included here as a result. I justify limiting my data to those where only `mean` and `std` accompanies each other in the list found in the file `features.txt` as I am moving towards creating a tidy data set that deals with these assessements of the measures.
  
 
 ####Step #3 information
@@ -71,7 +71,7 @@ The final step uses the melt and dcast commands to reformat the data applying a 
 measurement for each activity and each subject. This is the part of the script dependent on the `reshape2` library for running. Please install if `library(reshape2)` causes issues.
 
 The reformatted data represents a tidy data set because:
-- There is variable per column.  
+- There is one variable per column.  
 (2 columns of subject indicators and activity labels plus 66 columns of measures.)
 - There is a single observation per row, meaning in this tidy data set there is a single subject and single activity with summary of the means collected for all the measures collected for that set on a single row.  
 There are 180 rows because there are 6 activities that had been monitored for 30 individual subjects of the study. (6 * 30 = 180).
@@ -80,9 +80,12 @@ Here that is the averages for a collection of measures for each subject and acti
 - Column names are easy to use and informative.  
 It was requested for this project that variable names in the colmumns of the measures be particularly descriptive and they are. The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
 - Obvious mistakes in the data have been removed.
-While there weren't many mistakes that I saw. One fixed in the course of making the variable names of the measures better involved the variable names. For example, the `features_info.txt` file listed that there should be `fBodyAccJerkMag` but that doesn't occur in the original provided features listing in `features.txt`. Instead there is `fBodyBodyAccJerkMag`  in `features.txt`.
-Variable values are internally consistent
-Appropriate transformed variables have been added
+While there weren't many mistakes that I saw. One fixed in the course of making the variable names of the measures better involved the variable names. For example, the `features_info.txt` file listed that there should be `fBodyAccJerkMag` but that doesn't occur in the original provided features listing in `features.txt`. Instead there is `fBodyBodyAccJerkMag`  in `features.txt`. Likewise, a similar phenomena occurs for several of the last variable names listed towards the end of the list of variable names in `features.txt`. (The list itself encompasses kubes 13 to 29 of that file.)
+- Variable values are internally consistent.  
+Similar process were applied to all variables and so they are consistent in this tidy data table.
+- Appropriate transformed variables have been added.  
+The averages of the means and standard deviations were added to the table and in fact the individual components were left off of the tidy data set.
+(The properties referenced here are summarized from [here](http://www.r-bloggers.com/data-analysis-class/).)
 
 The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
 

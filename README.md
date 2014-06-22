@@ -100,7 +100,13 @@ However, when the whitespaces I had in my varaible names gets converted to perio
 
 ######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set.
 
-Additional information and attribution
+Dependencies
+---------------------------------------
+The `run_analysis.R` script requires the `reshape2` package for running. 
+> That package will need to be install if issuing the command `library(reshape2)` causes issues.
+
+
+Additional information and source attribution
 ---------------------------------------
 
 The raw data utilized here represent data collected from the accelerometer and gyroscope signals from the Samsung Galaxy S smartphone. A full description and attribution is available at the site where the data was originally obtained:

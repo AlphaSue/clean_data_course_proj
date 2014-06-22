@@ -87,7 +87,7 @@ Similar process were applied to all variables and so they are consistent in this
 The averages of the means and standard deviations were added to the table and in fact the individual components were left off of the tidy data set.
 (The properties referenced here are summarized from [here](http://www.r-bloggers.com/data-analysis-class/).)
 
-The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
+
 
 The tidy data set produced can be read in by 
 

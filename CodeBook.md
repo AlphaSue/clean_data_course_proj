@@ -39,7 +39,8 @@ From this point on, I will only be dealing with a subset of the data from the or
 
 Prior to my work the activity column was populated with numbers representing each activity. The correspondences were detailed in the file `activity_labels.txt`. In the data set I produced as part of step three, and subsequently, the more descriptive text labels of the activity have been incoporated instead. I used a function `addLabels` (included in the script) that altered the level designators of the factor variables to do this.
  
- 
+- Column names are easy to use and informative.  
+It was requested for this project that variable names in the colmumns of the measures be particularly descriptive and they are. The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
 
 I want to comment on my choices for descriptive variables names. For tidy data the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar as they deal with the phones' acclerometer and gryoscrope readings, and it would be very difficult to make these variable names descriptive otherwise.  
 The names were based on information in the following files from the original data set:
@@ -51,6 +52,7 @@ The names were based on information in the following files from the original dat
 Transformations and fixes
 --------------------------
 Means were calculated for the measurment variables.
+The averages of the means and standard deviations for each activity for each individual test subject were calculated and are presented in the tidy data set `tidy_data_of_means.txt`.
 
 ###Details of fixes addressed
 While there weren't many mistakes that I saw. One fixed in the course of making the variable names of the measures better involved the variable names. For example, the `features_info.txt` file listed that there should be `fBodyAccJerkMag` but that doesn't occur in the original provided features listing in `features.txt`. Instead there is `fBodyBodyAccJerkMag`  in `features.txt`. Likewise, a similar phenomena occurs for several of the last variable names listed towards the end of the list of variable names in `features.txt`. (The list itself encompasses lines 13 to 29 of that file.)
@@ -58,8 +60,8 @@ While there weren't many mistakes that I saw. One fixed in the course of making 
 
 
 
-Obtaining the data set
----------------------------
+Accessing the data set 
+------------------------
 The tidy data produced should be provided by Coursera.
 After downloading, the tidy data set can be read in by 
 
@@ -70,8 +72,14 @@ However, when the whitespaces I had in my varaible names gets converted to perio
   
   
   
-  
 
+Additional information 
+---------------------------------------
+My `run_analysis.R` script was used to take a provided untidy data set and make the tidy data set described in this code book. Learn more about it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/README.md).
+######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set after consulting the [README.md file](https://github.com/fomightez/clean_data_course_proj/blob/master/README.md).
+
+
+#### Additional notes on the data set targeted to issues specific to course goals
 The reformatted data represents a tidy data set because:
 - There is one variable per column.  
 (2 columns of subject indicators and activity labels plus 66 columns of measures.)
@@ -82,18 +90,12 @@ Here that is the averages for a collection of measures for each subject and acti
 - Column names are easy to use and informative.  
 It was requested for this project that variable names in the colmumns of the measures be particularly descriptive and they are. The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
 - Obvious mistakes in the data have been removed.
-While there weren't many mistakes that I saw. One fixed in the course of making the variable names of the measures better involved the variable names. For example, the `features_info.txt` file listed that there should be `fBodyAccJerkMag` but that doesn't occur in the original provided features listing in `features.txt`. Instead there is `fBodyBodyAccJerkMag`  in `features.txt`. Likewise, a similar phenomena occurs for several of the last variable names listed towards the end of the list of variable names in `features.txt`. (The list itself encompasses kubes 13 to 29 of that file.)
+While there weren't many mistakes that I saw. One fixed in the course of making the variable names of the measures better involved the variable names. For example, the `features_info.txt` file listed that there should be `fBodyAccJerkMag` but that doesn't occur in the original provided features listing in `features.txt`. Instead there is `fBodyBodyAccJerkMag`  in `features.txt`. Likewise, a similar phenomena occurs for several of the last variable names listed towards the end of the list of variable names in `features.txt`. (The list itself encompasses lines 13 to 29 of that file.)
 - Variable values are internally consistent.  
 Similar process were applied to all variables and so they are consistent in this tidy data table.
 - Appropriate transformed variables have been added.  
 The averages of the means and standard deviations were added to the table and in fact the individual components were left off of the tidy data set.
-(The properties referenced here are summarized from [here](http://www.r-bloggers.com/data-analysis-class/).) 
-
-
-Additional information 
----------------------------------------
-My `run_analysis.R` script was used to take a provided untidy data set and make the tidy data set described in this code book. Learn more about it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/README.md).
-######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set after consulting the [README.md file](https://github.com/fomightez/clean_data_course_proj/blob/master/README.md).
+(The properties referenced here are summarized from [here](http://www.r-bloggers.com/data-analysis-class/).)
 
 
 

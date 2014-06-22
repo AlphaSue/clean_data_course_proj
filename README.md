@@ -67,8 +67,10 @@ The names were based on information in the files:
 - `README.txt` 
 
 ####Step #5 information
+The final step uses the melt and dcast commands to reformat the data applying a function to evaluate the means for each
+measurement for each activity and each subject. This is the part of the script dependent on the `reshape2` library for running. Please install if `library(reshape2)` causes issues.
 
-As tidy data set produced can be read in by 
+The tidy data set produced can be read in by 
 
     data_read <- read.table("tidy_data_of_means.txt")
     

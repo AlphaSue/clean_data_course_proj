@@ -45,7 +45,7 @@ The sixty-six measures for which the averages for each test subject and activity
 
  
 
-Those indicated with `accleration` pertain to readings from the accelerometer and those referencing `angular velocity` are from the gyroscope readings.
+Those measures indicated with `acceleration` pertain to readings from the accelerometer and those referencing `angular velocity` are from the gyroscope readings. Jerk signals are described with descriptor `during jerk signals`.
 I have used indicated those derived from Fast Fourier Transforms (FFTs) as pertaining to `frequency domain signals` and those where the magnitude (See the original `features_info.txt` for more information.)
 
 I want to comment on my choices for descriptive variables names. For tidy data, the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar as they deal with the phones' acclerometer and gryoscrope readings, and it would be very difficult to make these variable names descriptive otherwise.  

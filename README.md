@@ -68,8 +68,11 @@ The names were based on information in the files:
 
 ####Step #5 information
 
-As d
+As tidy data set produced can be read in by 
 
+    data_read <- read.table("tidy_data_of_means.txt")
+    
+However, when the whitespaces I had in my varaible names gets converted to periods, or at least show up as such when the table `data_read` is viewed in rStudio. However, if you view the `tidy_data_of_means.txt` separately in a text editor, you'll see the spaces.
 
 ######The script includes many comments and I would suggest consulting it [here](https://github.com/fomightez/clean_data_course_proj/blob/master/run_analysis.R) if you still seek additional insight about the processing of the raw data to a tidy data set.
 

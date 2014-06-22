@@ -29,22 +29,26 @@ Accelerometer and gyroscope readings were analyzed for six types of activities:
 
 
 The means and standard deviations for 66 measures have been averaged over time for each test subject. Specifically,my handling of the original data resulted in only collecting the measures of `mean()` and `std()` for each measure and required the measure have both. Some measures that included the term `mean` were not included here as a result because the derived data set described here is only dealing with the means and accompanying standard deviations of the assessements of the measures.
- 
+
+There are no units for these measures as they are in fact ratios derived by dividing by their range to normalize the data. (See discussion posting https://class.coursera.org/getdata-004/forum/thread?thread_id=261#comment-880 for more information,)
+
+
 On a related note, as described in [this post](https://class.coursera.org/getdata-004/forum/thread?thread_id=106), the data in the inertial directory of the original data provided was very raw data and did not include means with accompanying standard deviations that were the subject of collection and analysis here, and so it has been left out of the derived data set described here.
 
-  
+
+The sixty-six measures for which the averages for each test subject and activity analyzed are featured in the data set:
+
 
  
 
  
 
  
-
 
 
 I want to comment on my choices for descriptive variables names. For tidy data, the course stresses it is best to keep variable names clear but avoid periods, underscores, or whitespaces. However, in this case I have chosen to include white space as a compromise because the terms describing these variables are in large part very similar as they deal with the phones' acclerometer and gryoscrope readings, and it would be very difficult to make these variable names descriptive otherwise.  
 
-It was requested for this project that variable names in the colmumns of the measures be particularly descriptive and they are. The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable.
+It was requested for this project that variable names in the colmumns of the measures be particularly descriptive and they are. The column names of the measurements, while not conforming precisely to the course recommendations of column and row names, i.e., avoid whitepsace, periods, and underscores in names, represent a compromise between keeping them clear and human readable. Also in being very descriptive they are a bit verbose for my tastes since the terms are all rather similar and this approach was encouraged by the TA for the course (see https://class.coursera.org/getdata-004/forum/thread?thread_id=106#post-402), I arrived at these names.
 
 The names were based on information in the following files from the original data set:
 - `features.txt` 

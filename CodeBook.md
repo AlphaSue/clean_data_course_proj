@@ -139,7 +139,7 @@ While there weren't many mistakes that I saw. One fixed in the course of making 
 
 Accessing the data set 
 ------------------------
-The tidy data produced should be provided by Coursera.
+The tidy data set produced should be downloadable via the link provided by Coursera.
 After downloading, the tidy data set can be read in by 
 
     data_read <- read.table("tidy_data_of_means.txt")

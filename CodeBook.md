@@ -54,7 +54,7 @@ The names were based on information in the following files from the original dat
 
 Transformations and fixes
 --------------------------
-The provided training and testing data sets were merged to create a single combined data set. For further work I limited the data set to only include data related to mean or standard deviation values (denoted by the presence of `mean()` or `std()` in the feature names).  
+The provided training and testing data sets were merged to create a single combined data set. For further work, I limited the data set to only include data related to mean or standard deviation values (denoted by the presence of `mean()` or `std()` in the feature names) as described above.  
 
 The averages of the means and standard deviations for each activity for each individual test subject were calculated and are presented in the tidy data set `tidy_data_of_means.txt`.
 

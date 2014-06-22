@@ -103,7 +103,7 @@ However, when the whitespaces I had in my varaible names gets converted to perio
 Dependencies
 ---------------------------------------
 The `run_analysis.R` script requires the `reshape2` package for running. 
-> That package will need to be install if issuing the command `library(reshape2)` causes issues.
+> The `reshape2` package will need to be install if issuing the command `library(reshape2)` causes issues.
 
 
 Additional information and source attribution
